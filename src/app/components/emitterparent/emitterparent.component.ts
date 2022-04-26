@@ -17,8 +17,6 @@ export class EmitterparentComponent implements OnInit {
   }
 
   subscribeToEmmiter(componentRef:any){
-    console.log("parent...");
-    
     if (!(componentRef instanceof EmitterchildComponent)) {
       return;
     }
