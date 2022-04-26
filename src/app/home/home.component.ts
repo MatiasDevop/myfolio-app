@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
   valueT = 80;
   valueCR = 50;
   bufferValue = 75;
-  breakpoint: number;
+  breakpoint: number = 0;
   public isMobile: boolean = false;
   constructor(private library: FaIconLibrary,
     iconRegistry: MatIconRegistry, 
@@ -70,7 +70,7 @@ export class HomeComponent implements OnInit {
         });    
   }
 
-  listTodo:any[];
+  listTodo:any[]=[];
 
   ngOnInit(): void {
     this.breakpoint = (window.innerWidth <= 400) ? 1 : 2;

@@ -10,13 +10,13 @@ import { EmitterchildComponent } from '../emitterchild/emitterchild.component';
 export class EmitterparentComponent implements OnInit {
 
   count = 0;
-  subscription: Subscription;
+  subscription: Subscription | undefined;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  subscribeToEmmiter(componentRef){
+  subscribeToEmmiter(componentRef:any){
     console.log("parent...");
     
     if (!(componentRef instanceof EmitterchildComponent)) {

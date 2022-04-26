@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DialogItemComponent implements OnInit {
 
-  name: string;  
+  name: string|undefined;  
   constructor() { }
 
   ngOnInit(): void {
