@@ -1,0 +1,11 @@
+<p>emitterparent works!</p>
+<div class="parent">
+    <div class="col-12 py-3 d-flex justify-content-center">
+        <h2>Emitter Subscribe Component</h2>
+    </div>
+    <div class="col-12 py-3 d-flex justify-content-center">
+        <h2>Event Emmited {{count}} times</h2>
+    </div>
+    <router-outlet (active)="subscribeToEmmiter($event)" (deactivate)="unsubscribe()">
+    </router-outlet>
+</div>

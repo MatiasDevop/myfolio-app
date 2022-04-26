@@ -1,0 +1,137 @@
+.example-card {
+    max-width: 600px;
+
+  }
+  .content-social{
+   margin: 0px;
+  }
+  .content-social a{
+    
+  }
+  .card{
+    border: blanchedalmond;
+    padding: 2em;
+    box-shadow: 15px 15px 53px #223288;
+    border-radius: .5em;
+  
+  }
+  .btn-social{
+     background-color: black;
+  }
+  .card-body{
+    text-align: center;
+    
+  }
+  .card-img-top{
+    align-self: center;
+    width: 221px;
+    border-radius: 36em;
+    padding: 3em;
+    margin: 3em;
+}
+.img-thumbnail{
+    border-radius: 24em;
+    font-size: 7px;
+    height: 26em;
+    width: 32em;
+    align-self: center;
+}
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+    text-align: center;
+  }
+
+.card_profile{
+  padding: 18px;
+  margin-top: 50px;
+  box-shadow: none;
+}
+
+.card_profile li{
+    font-size: small;
+    font-family: 'Poppins';
+    float: right;
+}
+.card_profile span{
+  color:black;
+  float: inherit;
+}
+
+.card-title{
+  font-size: large;
+  font-family: 'Poppins';
+  text-align: justify;
+}
+.card-subtitle{
+  text-align: initial;
+  font-size: large;
+  font-family: 'Poppins';  
+}
+
+.text-intro{
+  font-size: small;
+  font-family: 'Poppins'; 
+    text-align: justify;
+}
+.buttons{
+  display: flex;
+}
+.btn_download{
+ 
+  text-decoration: none;
+  background: #3f51b5;
+  margin-top: 1em;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins';
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px;
+  padding: 1em;
+}
+.btn_contact{
+  padding: .5em 1em;
+  border-radius: .3em;
+  text-decoration: none;
+  margin-top: 1em;
+  display: inline-block;
+  color: #2428b1;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+  
+
+
+  @media (max-width: 576px) {
+    .content-social {
+      margin: 0px;
+      margin-right: 10px;
+      padding-right: 18px;
+      margin-inline: -15px;
+    }
+    .card-img-top{
+      margin: 0em;
+      border-radius: 15em;
+      width: 171px;
+    }
+    li{
+      padding: 0px;
+      margin: 0px; 
+    }
+    h2.lead {
+      size: 6em;
+      max-height: 16px;
+    }
+
+    .btn_download{
+      /* width: 8em; */
+    }
+    .btn_contact{
+      /* width: 7em; */
+    }
+  
+}

@@ -1,0 +1,95 @@
+<!-- <table mat-table #table [dataSource]="listTodo">
+  <ng-container matColumnDef="column">
+    <th mat-header-cell *matHeaderCellDef> header </th>
+    <td mat-cell *matCellDef="let row"> {{row.payload.doc.data().Name}} </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="['column']"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['column'];"></tr>
+</table> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="card">
+                <img
+                src="https://material.angular.io/assets/img/examples/shiba1.jpg" 
+                alt="Card image cap" 
+                class="img-thumbnail">
+                <div class="card-body">
+                  <h1>Nestor Matias</h1>
+                  <h2>FullStack Developer</h2>
+                </div>
+              </div>
+              <br>
+            <div class="row content-social">
+                <div class="col-3">
+                  <a mat-fab class="btn-social"><fa-icon [icon]="twitter" 
+                    size="2x" 
+                    [styles]="{'stroke': 'black', 'color': 'rgb(41, 148, 197)'}"
+                    ></fa-icon></a>
+                </div>
+                <div class="col-3">
+                  <a mat-fab class="btn-social"><fa-icon [icon]="gitHub" 
+                    size="2x" 
+                    [styles]="{'stroke': 'black', 'color': 'rgb(252, 252, 252)'}"
+                    ></fa-icon></a>
+                </div>
+                <div class="col-3">
+                  <a mat-fab class="btn-social"><fa-icon [icon]="linkedin" 
+                    size="2x" 
+                    [styles]="{'stroke': 'black', 'color': 'rgb(17, 101, 227 )'}"
+                    ></fa-icon></a>
+                </div>
+                <div class="col-3">
+                    <a mat-fab class="btn-social"><fa-icon [icon]="faCoffee" 
+                      size="2x" 
+                      [styles]="{'stroke': 'black', 'color': 'rgb(75, 206, 118)'}"
+                      ></fa-icon></a>
+                </div>
+                  
+            </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Card info  -->
+<mat-card class="card_profile">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card m-2">
+            <ul class="list-group">
+              <li class="list-group-item">Age<span>30</span></li>
+              <li class="list-group-item">Job<span>Freelancer</span></li>
+              <li class="list-group-item">Address<span>Spain</span></li>
+              <li class="list-group-item">Phone<span>+34 88811111</span></li>
+              <li class="list-group-item">E-Email<span>nest@corp.com</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card m-2">
+            <div class="card-body">
+              <p class="card-title">Hello! I'm Nestor Matias</p>
+              <p class="text-intro">As a Full-Stack developer i'm working remotely for serveral companies across the world and bulding proyects with Net Core(C#) and Angular(Typescript), Angular Material, MSSQL, Microservicios
+                Scrum methodology and always egear to learn new web tecnologies..</p>
+              <p class=""></p>
+              <div class="buttons">
+                <a href="#" class="btn_download">Download CV</a>
+                <a href="#" class="btn_contact">Contact Me</a>
+              </div>  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+</mat-card>
+
+<div class="section-skill">
+  <!-- <h1 class="skill">Skills</h1> -->
+</div>
