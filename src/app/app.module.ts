@@ -25,8 +25,6 @@ import { ExperienceComponent } from './experience/experience.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
-//import { AngularFirestoreModule } from '@angular/fire/firestore';
-//import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { SignInComponent } from './auth/sign-in/sign-in.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
@@ -34,14 +32,11 @@ import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.
 import { VerifyEmailComponent } from './auth/verify-email/verify-email.component';
 import { AuthService } from './shared/services/auth-service';
 import { DialogItemComponent } from './portfolio/dialog-item/dialog-item.component';
-//import { FormsModule } from '@angular/forms';
 import { CartComponent } from './payment/cart/cart.component';
 import { EmitterparentComponent } from './components/emitterparent/emitterparent.component';
 import { EmitterchildComponent } from './components/emitterchild/emitterchild.component';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { FormsModule } from '@angular/forms';
-
-
 
 @NgModule({
   declarations: [
